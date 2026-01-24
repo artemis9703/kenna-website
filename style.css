@@ -55,6 +55,21 @@ hr {
   margin: auto;
   border-radius: 10px;
 }
+.inner-bar-hero, .inner-bar-villain {
+  background-color: #397100;
+  border-radius: 10px;
+  padding-left: 0px;
+}
+.inner-bar-hero {
+  width: 70%;
+}
+.inner-bar-villain {
+  width: 18%;
+}
+.bar-text {
+  color: white;
+  padding-left: 5px;
+}
 h3 {
   text-align: center;
   font-size: 25px;
@@ -63,8 +78,13 @@ h3 {
 }
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
-  height: 10%;
+  height: 2.5%;
   background-color: #397100;
+}
+.foot-text {
+  color: white;
+  margin: auto;
+  text-align: center;
 }
